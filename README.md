@@ -18,7 +18,7 @@ CSS
 Javascript
 Modules
 
-See Live here
+See Live here https://asnganje.github.io/awesomebookES6/
 
 Author
 👤 Abdulrahman Nganje
