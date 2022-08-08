@@ -22,8 +22,8 @@ document.querySelector('#ourBooksListId').addEventListener('click', (e) => {
 
 const dateVisit = document.querySelector('.userDate');
 const setExactTime = () => {
-  const now = DateTime.local();
-  const showDate = now.toFormat('dd LLL yyyy');
+  const now = DateTime.now();
+  const showDate = now.toLocaleString(DateTime.DATETIME_FULL);
   dateVisit.innerHTML = showDate;
 };
 setExactTime();
