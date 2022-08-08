@@ -46,7 +46,7 @@ navigator.forEach((n, index) => n.addEventListener('click', () => {
     listLink.classList.remove('hidden');
     booksAddition.classList.add('hidden');
     contactUs.classList.add('hidden');
-  } else if (index == 1) {
+  } else if (index === 1) {
     listLink.classList.add('hidden');
     booksAddition.classList.remove('hidden');
     contactUs.classList.add('hidden');
