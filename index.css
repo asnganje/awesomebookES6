@@ -1,0 +1,153 @@
+/* Style Css */
+
+.books-section {
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+  }
+  
+  .m-hr {
+    width: 30%;
+    border: 1px solid #000;
+  }
+  
+  .m-h {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 1.5rem;
+  }
+  
+  .books {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border: 2px solid #000;
+    background-color: #fff;
+  }
+  
+  .book-wraper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    /* margin: 10px; */
+    width: 100%;
+  }
+  
+  .book-wraper:nth-child(even) {
+    background-color: gray;
+  }
+  
+  .books div:nth-child(odd) {
+    background-color: #fff9;
+  }
+  
+  .remove-button {
+    border: 2px solid #000;
+    background-color: #f9f9f9;
+    padding: 5px 20px;
+    margin: 15px;
+    cursor: pointer;
+  }
+  
+  .remove-button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #000;
+    margin: 10px;
+  }
+  
+  .add-btn {
+    border: 2px solid #000;
+    background-color: #f9f9f9;
+    padding: 5px 20px;
+    margin-left: 120px;
+    cursor: pointer;
+  }
+  
+  .add-btn:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .books-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    border: 2px solid black;
+  }
+
+  .book-nav {
+    border-right: 2px solid black;
+    padding: 6px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 20%;
+    justify-content: space-between;
+  }
+
+  .booksUl > li:last-child {
+    border-right: none;
+    padding-right: 1vh;
+  }
+
+  .visit-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: aquamarine;
+  }
+
+  .contactUs {
+    border: 2px solid whitesmoke;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .contactUl {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-left: 140px;
+  }
+
+  .contactLi {
+    text-align: left;
+    width: 100%;
+    padding: 0 10px;
+    list-style-type: square;
+  }
+
+  .contP {
+    font-size: 18px;
+    text-align: left;
+    padding: 2px 25px;
+  }
+
+  .hidden {
+    display: none;
+  }
